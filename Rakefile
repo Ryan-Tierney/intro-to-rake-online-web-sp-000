@@ -21,9 +21,7 @@ task :environment do
 end 
 end 
 
-namespace :db do 
-  
-  ...
+namespace :db do
   
 desc 'seed the databse with some dummy data'
 task :seed do 
